@@ -19,7 +19,7 @@ The Revised DES application is provided as a single JAR file, and it is used as 
 
 where
 
-	  MODE        either -e to encrypt or -d to decrypt
+    MODE        either -e to encrypt or -d to decrypt
     INPUTFILE   plain text file to be encrypted or cipher text file to be decrypted
     KEY         8 character (64 bit) ASCII string
     OPTIONS
