@@ -19,11 +19,10 @@ The Revised DES application is provided as a single JAR file, and it is used as 
 
 where
 
-	`MODE`		either -e to encrypt or -d to decrypt
-  `INPUTFILE`	plain text file to be encrypted or cipher text 				file to be decrypted
-	`KEY`		8 character (64 bit) ASCII string
-
-	  OPTIONS
+	  MODE        either -e to encrypt or -d to decrypt
+    INPUTFILE   plain text file to be encrypted or cipher text file to be decrypted
+    KEY         8 character (64 bit) ASCII string
+    OPTIONS
 	    -o OUTPUTFILE	writes the encrypted / decrypted text to OUTPUTFILE. If not specified, OUTPUTFILE is the same as INPUTFILE with “.enc” or “.dec” appended at the end for encryption or	encryption, respectively.
 	    -b	when encrypting, setting this option writes the cipher text as a stream of bytes instead of bits; when decrypting, setting this option reads in a byte stream instead of a bit stream
 	    -h	displays a help message
